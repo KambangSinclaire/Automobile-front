@@ -26,14 +26,10 @@ $(document).ready(() => {
         let phone = Phone.value;
         let password = signUpPassword.value;
 
-        console.log(firstName);
-        console.log(firstname);
-
-
         // Create new user object
         const NewUser = {
-            firstName: firstName.value,
-            lastName: lastName.value,
+            firstname: firstName.value,
+            lastname: lastName.value,
             email: signUpEmail.value,
             address: Address.value,
             phone: Phone.value,
