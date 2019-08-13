@@ -12,6 +12,11 @@ body {
     serif;
 }
 
+.exploreAll:hover {
+  text-decoration: none;
+  color: orange;
+}
+
 #mainHead {
   font-family: "Yesteryear", cursive;
 }
