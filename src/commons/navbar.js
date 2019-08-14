@@ -17,23 +17,33 @@ const navbar = `<header id="navbarSection">
 
                 <a href = "login.html"
                 class = "signOut profile ml-3 text-warning">Sign Out</a>
-            </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+             <i class="fa fa-th-list text-warning float-right"></i><br>
+                </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item mx-4">
                     <a href = "index.html"
                     class = "nav-link btn btn-outline-success text-white btn-lg px-4"> Home </a>
-                </li>
+                </li><br>
                 <li class="nav-item mx-4">
                     <a href="#displayProducts"
                         class="nav-link btn btn-outline-success text-white btn-lg px-4">products</a>
-                </li>
+                </li><br>
                 <li class="nav-item mx-4">
                     <a href="#" class="nav-link btn btn-outline-success text-white btn-lg px-4">services</a>
-                </li>
+                </li><br>
+
                 <li class="nav-item mx-4">
                     <a href="#" class="nav-link btn btn-outline-success text-white btn-lg px-4">portfolio</a>
-                </li>
+                </li><br>
+
+                <li class="nav-item mx-4">
+                    <a href="#" class="nav-link btn btn-outline-success text-white btn-lg px-4">about</a>
+                </li><br>
             </ul>
+            </div>
         </nav>
 
 
@@ -116,7 +126,7 @@ const footer = ` <footer id="footer" class="bg-dark py-5">
                             <h5 class="pb-3">
                                 Contact Us
                             </h5>
-                            <a href="#" class="text-info mb-3">info@nginyatechnologies.co</a>
+                            <a href="#" class="text-info mb-3">nginyatechnologies@gmail.com</a>
 
                             <ul class="list-inline pt-3 pr-3">
                                 <li class="list-inline-item">

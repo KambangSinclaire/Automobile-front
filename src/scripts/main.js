@@ -11,6 +11,8 @@ const signUpBtn = document.querySelector('.signUp');
 const signOut = document.querySelector('.signOut');
 const profile = document.querySelector('.profile');
 const navbarSection = document.querySelector('.navbar');
+const videoSection = document.getElementById('video');
+
 // const ProductAboutSection = document.querySelector('.about-picture');
 
 
