@@ -42,6 +42,10 @@ const navbar = `<header id="navbarSection">
                 <li class="nav-item mx-4">
                     <a href="#" class="nav-link btn btn-outline-success text-white btn-lg px-4">about</a>
                 </li><br>
+
+                <li class="nav-item mx-4">
+                    <a href="signup.html" class="nav-link btn btn-outline-success text-white btn-lg px-4">signup</a>
+                </li><br>
             </ul>
             </div>
         </nav>
