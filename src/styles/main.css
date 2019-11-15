@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Kavoon&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Kavoon&display=swap");
 
 * {
   margin: 0%;
@@ -6,10 +6,8 @@
 }
 
 body {
-  font-family: 'Kavoon',
-    cursive;
-  font-family: 'Bree Serif',
-    serif;
+  font-family: "Kavoon", cursive;
+  font-family: "Bree Serif", serif;
 }
 
 .exploreAll:hover {
@@ -19,7 +17,7 @@ body {
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("https://autoportal.com/img/new-cars-gallery/renault/kwid/exterior/432c3dcf/renault-kwid-432c3dcf-1600x1200.JPG");
+    url("../../images/car22.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,7 +31,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
 .height {
@@ -146,7 +143,6 @@ i {
 
 .blockquote {
   font-size: 1.5rem;
-
 }
 
 .blockquote:hover {
@@ -159,7 +155,6 @@ i {
   -o-transition: 2s ease-in-out all;
 }
 
-
 .title-underline {
   width: 150px;
   height: 10px;
@@ -170,11 +165,16 @@ i {
   min-height: 80vh;
 }
 
-
 .about-picture {
-  background-image: url('../../images/car.jpeg');
+  background-image: url("../../images/car.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: skyblue;
+  }
 }
